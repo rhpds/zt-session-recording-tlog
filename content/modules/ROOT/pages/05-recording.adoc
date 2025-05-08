@@ -1,0 +1,39 @@
+Change user to the *rhel* user so that the session can be recorded.
+
+[source,bash,run]
+----
+su - rhel
+----
+
+You will notice that when the `+bash+` session starts, the *rhel* user
+receives the notice message configured in the *tlog* configuration.
+
+Run some commands in the *rhel* user’s session.
+
+[source,bash,run]
+----
+ls /tmp
+----
+
+[source,bash,run]
+----
+who
+----
+
+[source,bash,run]
+----
+df -hP
+----
+
+[source,bash,run]
+----
+dnf list installed
+----
+
+Now that you have some data in a recorded session, you can log out of
+the user’s terminal session.
+
+[source,bash,run]
+----
+exit
+----

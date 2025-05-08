@@ -1,0 +1,22 @@
+Switch back to the Terminal in your lab environment.
+
+As mentioned on the previous step, the Web Console actions have written
+a small configuration file for sssd,
+*/etc/sssd/conf.d/sssd-session-recording.conf* You can review it to
+verify that the scope has been set to *all* so that all sessions for all
+users and groups will be recorded.
+
+[source,bash,run]
+----
+cat /etc/sssd/conf.d/sssd-session-recording.conf
+----
+
+Changes to the other configuration options displayed by Web Console
+would have stored those changes in */etc/tlog/tlog-rec-session.conf*.
+For example, the *notice* message displayed to users who are having
+their session recorded. You can inspect this file as well, if desired.
+
+[source,bash,run]
+----
+cat /etc/tlog/tlog-rec-session.conf
+----

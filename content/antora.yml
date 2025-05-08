@@ -1,0 +1,9 @@
+---
+name: modules
+version: master
+
+asciidoc:
+  attributes:
+    lab_name: "Configure terminal session recording"
+    release-version: master
+    page-pagination: true

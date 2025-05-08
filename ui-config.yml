@@ -1,0 +1,30 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-install"
+      label: "Install"
+      solveButton: true
+    - name: "02-login"
+      label: "Login"
+      solveButton: true
+    - name: "03-enable"
+      label: "Enable"
+      solveButton: true
+    - name: "04-review"
+      label: "Review"
+      solveButton: true
+    - name: "05-recording"
+      label: "Recording"
+      solveButton: true
+    - name: "06-reviewing"
+      label: "Reviewing"
+      solveButton: true
+    - name: "07-review-cli"
+      label: "Review Cli"
+      solveButton: true
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty
