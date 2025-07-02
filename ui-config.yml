@@ -28,3 +28,5 @@ antora:
 tabs:
   - name: ">_ terminal"
     url: /wetty
+  - name: "Web Console"
+    url: https://cockpit-${guid}.${domain}/
