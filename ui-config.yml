@@ -29,4 +29,4 @@ tabs:
   - name: ">_ terminal"
     url: /wetty
   - name: "Web Console"
-    url: https://${guid}.${domain}:9090/
+    url: https://cockpit-${guid}.${domain}/
