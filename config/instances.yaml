@@ -12,6 +12,7 @@ virtualmachines:
       - default
     packages:
       - cockpit
+      - sssd-proxy
     services:
       - name: cockpit
         ports:
