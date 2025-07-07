@@ -22,7 +22,7 @@ virtualmachines:
             name: cockpit
     routes:
       - name: cockpit
-        host: rhel
+        host: cockpit
         service: cockpit
         targetPort: 9090
         tls: true
