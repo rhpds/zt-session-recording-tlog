@@ -22,3 +22,4 @@ systemctl enable --now cockpit.socket
 # Create rhel user and set password
 useradd rhel
 usermod -aG wheel rhel
+usermod -p '$6$HHxZmp6TiEs88dql$EDKfoTDl2VMBh6pBZCslM5XIHWmLWckaoLDTgHFGvSaEgbE2fglB52b6ImTJVbhf1mVAPQCSbAeadjwu53Knl.' rhel
