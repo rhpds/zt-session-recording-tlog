@@ -78,3 +78,10 @@
     - r_result is defined
     - r_result.rc != 0
 
+  - name: Set rhel user's password
+    ansible.buildin.user:
+    name: 'rhel'
+    state: present
+    password: '$6$CgPDYOIHbiz6S37p$xeHh5/7dlTJ0LqZBxhyMiiJD/8x1PfP0LFYrwkA2O1xprSYWPa6oTL1LlGWPPSoUiCllTPr9A5waruS4/fCq5.'
+    groups:
+    - wheel

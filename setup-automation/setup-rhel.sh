@@ -2,8 +2,8 @@
 # Create an output file
 #touch /root/post-run.log
 #configure rhel account
-usermod -aG wheel rhel
-echo redhat | passwd --stdin rhel
+#usermod -aG wheel rhel
+#echo redhat | passwd --stdin rhel
 
 #subscription-manager register --activationkey=${ACTIVATION_KEY} --org=12451665 --force
 
