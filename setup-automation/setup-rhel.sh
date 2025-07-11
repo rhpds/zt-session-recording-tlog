@@ -1,9 +1,9 @@
 #!/bin/bash
 # Create an output file
 #touch /root/post-run.log
-# configure rhel account
-#usermod -aG wheel rhel
-#echo redhat | passwd --stdin rhel
+#configure rhel account
+usermod -aG wheel rhel
+echo redhat | passwd --stdin rhel
 
 #subscription-manager register --activationkey=${ACTIVATION_KEY} --org=12451665 --force
 
@@ -19,7 +19,3 @@ echo "Origins = https://cockpit-${GUID}.${DOMAIN}" >> /etc/cockpit/cockpit.conf
 echo "AllowUnencrypted = true" >> /etc/cockpit/cockpit.conf
 systemctl enable --now cockpit.socket
 
-# Create rhel user and set password
-useradd rhel
-usermod -aG wheel rhel
-usermod -p '$6$HHxZmp6TiEs88dql$EDKfoTDl2VMBh6pBZCslM5XIHWmLWckaoLDTgHFGvSaEgbE2fglB52b6ImTJVbhf1mVAPQCSbAeadjwu53Knl.' rhel
