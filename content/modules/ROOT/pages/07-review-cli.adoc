@@ -8,7 +8,7 @@ data, you will use the command `+journalctl+`. The following command
 will search through the journal log and locate strings that contain the
 `+rec+` string, plus the identifier included in that message.
 
-[source,bash,run]
+[source,bash,run,subs=attributes+]
 ----
 journalctl -o verbose | grep -P "\"rec\".*?\,"
 ----
@@ -29,7 +29,7 @@ be used for the replay. Once the replay is complete, your session will
 be returned to your control. You can interrupt the playback with a
 `+<CTRL>-C+`.
 
-[source,bash,run]
+[source,bash,run,subs=attributes+]
 ----
 tlog-play -r journal -M TLOG_REC=$(journalctl -o verbose | grep -P "\"rec\".*?\." | cut -d, -f3 | cut -d: -f2 | head -n 1 | sed -e s/\"//g)
 ----
