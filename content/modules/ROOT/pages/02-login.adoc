@@ -6,12 +6,12 @@ Use the _Web Console_ tab in your lab environment to log into the Web
 Console for the system. You should use the following credentials:
 
 Username: 
-[source,bash]
+[source,bash,subs=attributes+]
 ----
 rhel 
 ----
 Password: 
-[source,bash]
+[source,bash,subs=attributes+]
 ----
 {bastion_ssh_password}
 ----
