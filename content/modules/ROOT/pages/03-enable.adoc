@@ -12,5 +12,4 @@ on the system.
 Once you click the _Save_ button, Web Console will write out a small
 configuration file detailing the scope for the sssd daemon.
 
-After saving the configuration, return the Web Console to the main
-_Session Recording_ page.
+After saving the configuration, click on _Session Recording_ in the menu on the left to return to the main page.

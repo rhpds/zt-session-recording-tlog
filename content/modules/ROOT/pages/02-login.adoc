@@ -6,12 +6,12 @@ Use the _Web Console_ tab in your lab environment to log into the Web
 Console for the system. You should use the following credentials:
 
 Username: 
-[source,bash,run,subs=attributes+]
+[source,bash]
 ----
 rhel 
 ----
 Password: 
-[source,bash,run,subs=attributes+]
+[source,bash]
 ----
 {bastion_ssh_password}
 ----
@@ -23,8 +23,6 @@ ____
 
 Next, turn on administrative access. Click on the
 `+Turn on administrative access+` button.
-
-Enter the Password `+redhat+`.
 
 Now that you are logged into the Web console, and because you have
 installed the *cockpit-session-recording* rpm package, you can now
