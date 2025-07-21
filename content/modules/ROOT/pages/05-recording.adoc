@@ -12,22 +12,22 @@ Run some commands in the *rhel* user’s session.
 
 NOTE: You will need to copy and paste the following commands into the terminal in order for the recording to work peroperly. This is a limitation of the lab environment, not the tlog tool.
 
-[source,bash,subs=attributes+]
+[source,sh,subs=attributes+]
 ----
 ls /tmp
 ----
 
-[source,bash,subs=attributes+]
+[source,sh,subs=attributes+]
 ----
 who
 ----
 
-[source,bash,subs=attributes+]
+[source,sh,subs=attributes+]
 ----
 df -hP
 ----
 
-[source,bash,subs=attributes+]
+[source,sh,subs=attributes+]
 ----
 dnf list installed
 ----
@@ -35,7 +35,7 @@ dnf list installed
 Now that you have some data in a recorded session, you can log out of
 the user’s terminal session.
 
-[source,bash,subs=attributes+]
+[source,sh,subs=attributes+]
 ----
 exit
 ----
