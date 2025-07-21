@@ -14,6 +14,7 @@
 #touch /root/post-run.log.done
 
 # Enable cockpit functionality in showroom.
+dnf -y remove tlog cockpit-session-recording
 echo "[WebService]" > /etc/cockpit/cockpit.conf
 echo "Origins = https://cockpit-${GUID}.${DOMAIN}" >> /etc/cockpit/cockpit.conf
 echo "AllowUnencrypted = true" >> /etc/cockpit/cockpit.conf

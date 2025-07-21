@@ -9,7 +9,7 @@ After selecting the session, you will be taken to a page with an
 integrated player through which you can watch the session. Press the
 _Play_ button to review the session.
 
-The session was recorded in real-time, so if you started the `+bash+`
+NOTE: The session was recorded in real-time, so if you started the `+bash+`
 session but did not start running commands immediately, you will see
 that wait time reflected in the recorded session as well.
 
