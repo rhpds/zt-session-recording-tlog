@@ -22,12 +22,8 @@ image::all-scope-selected.png[All Scope Selected]
 Once you click the _Save_ button, Web Console will write out a small
 configuration file detailing the scope for the sssd daemon.
 
-<<<<<<< HEAD
-After saving the configuration, click on _Session Recording_ in the menu on the left to return to the main page.
-=======
 After saving the configuration, return the Web Console to the main
 _Session Recording_ page.
 
 .Session Recording
 image::return-main-session-page.png[Return Main Session Page]
->>>>>>> b8383cd (Update UI bundle to version 0.0.3, modify virtual machine configuration for RHEL, and add new images for session recording documentation.)

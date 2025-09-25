@@ -9,12 +9,12 @@ perform this task.
 Use the _Web Console_ tab in your lab environment to log into the Web
 Console for the system. You should use the following credentials:
 
-Username: 
+Username:
 [source,sh,subs=attributes+]
 ----
-rhel 
+rhel
 ----
-Password: 
+Password:
 [source,sh,subs=attributes+]
 ----
 {bastion_ssh_password}
@@ -30,8 +30,6 @@ ____
 Next, turn on administrative access. Click on the
 `+Turn on administrative access+` button.
 
-<<<<<<< HEAD
-=======
 .Turn on administrative access
 image::webconsoleadminaccess.png[Turn on administrative access]
 
@@ -40,7 +38,6 @@ Enter the Password `+redhat+`.
 .Enter the Password
 image::enterpasswordforadminaccess.png[Enter the Password]
 
->>>>>>> b8383cd (Update UI bundle to version 0.0.3, modify virtual machine configuration for RHEL, and add new images for session recording documentation.)
 Now that you are logged into the Web console, and because you have
 installed the *cockpit-session-recording* rpm package, you can now
 select the _Session Recording_ option in the left-side navigation menu.
