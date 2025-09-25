@@ -1,3 +1,7 @@
+:imagesdir: ../assets/images
+
+== Record a session
+
 Change user to the *rhel* user so that the session can be recorded.
 
 [source,bash,run,subs=attributes+]

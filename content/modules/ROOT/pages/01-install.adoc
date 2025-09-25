@@ -1,3 +1,7 @@
+:imagesdir: ../assets/images
+
+== Install the required packages
+
 Session recording on Red Hat Enterprise Linux is enabled using the `tlog` package, and we will also be using the `session-recording` plugin for `cockpit`.  These are found in the following two rpm packages, *cockpit-session-recording* and *tlog*.
 
 [source,bash,run,subs=attributes+]

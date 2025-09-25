@@ -1,3 +1,7 @@
+:imagesdir: ../assets/images
+
+== Reviewing a session
+
 Navigate back over to the _Web Console_ tab in your lab environment.
 
 If you are not already on the _Session Recording_ page, please navigate
@@ -5,11 +9,21 @@ there.
 
 You should now see a recorded session available.
 
+.Session Recording
+image::recorded-session.png[Recorded Session]
+
 After selecting the session, you will be taken to a page with an
 integrated player through which you can watch the session. Press the
 _Play_ button to review the session.
 
+<<<<<<< HEAD
 NOTE: The session was recorded in real-time, so if you started the `+bash+`
+=======
+.Play Session
+image::recorded-session-playback.png[Play Session]
+
+The session was recorded in real-time, so if you started the `+bash+`
+>>>>>>> b8383cd (Update UI bundle to version 0.0.3, modify virtual machine configuration for RHEL, and add new images for session recording documentation.)
 session but did not start running commands immediately, you will see
 that wait time reflected in the recorded session as well.
 

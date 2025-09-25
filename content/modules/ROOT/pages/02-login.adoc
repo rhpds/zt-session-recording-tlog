@@ -1,3 +1,7 @@
+:imagesdir: ../assets/images
+
+== Login to the Web Console
+
 Now that the required software is installed, it is time to configure and
 enable terminal session recording. You will use the Web Console to
 perform this task.
@@ -16,6 +20,8 @@ Password:
 {bastion_ssh_password}
 ----
 
+.Web Console Login
+image::Web-console-login.png[Web Console Login]
 ____
 *NOTE:* Problems accessing the Web Console or logging in? For best
 results, copy and paste the URL into Google Chrome.
@@ -24,6 +30,20 @@ ____
 Next, turn on administrative access. Click on the
 `+Turn on administrative access+` button.
 
+<<<<<<< HEAD
+=======
+.Turn on administrative access
+image::webconsoleadminaccess.png[Turn on administrative access]
+
+Enter the Password `+redhat+`.
+
+.Enter the Password
+image::enterpasswordforadminaccess.png[Enter the Password]
+
+>>>>>>> b8383cd (Update UI bundle to version 0.0.3, modify virtual machine configuration for RHEL, and add new images for session recording documentation.)
 Now that you are logged into the Web console, and because you have
 installed the *cockpit-session-recording* rpm package, you can now
 select the _Session Recording_ option in the left-side navigation menu.
+
+.Session Recording
+image::session-recording-option.png[Session Recording]

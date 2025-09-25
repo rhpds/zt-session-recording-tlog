@@ -1,3 +1,7 @@
+:imagesdir: ../assets/images
+
+== Review the configuration
+
 Switch back to the Terminal in your lab environment.
 
 As mentioned on the previous step, the Web Console actions have written

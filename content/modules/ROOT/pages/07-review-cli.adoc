@@ -1,3 +1,7 @@
+:imagesdir: ../assets/images
+
+== Review a session from the command-line
+
 The command to use to review recorded sessions from the command-line is
 `+tlog-play+`, which takes a session identifier to determine which
 session data to replay.
@@ -15,6 +19,9 @@ journalctl -o verbose | grep -P "\"rec\".*?\,"
 
 Below, is an example of one of those messages, but there will likely be
 more than one message associated with each session.
+
+.Journalctl Output
+image::log-message.png[Journalctl Output]
 
 To replay the session, you run `+tlog-play+` with the session
 identifier, using the log message displayed above, the command would
