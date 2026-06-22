@@ -12,10 +12,10 @@ virtualmachines:
         value: "bastions"
     networks:
       - default
-    packages:
-      - cockpit
-      - sssd-proxy
-      - pcp
+    # packages:
+    # - cockpit
+    # - sssd-proxy
+    # - pcp
     services:
       - name: cockpit
         ports:
