@@ -13,6 +13,10 @@
 # Create a done file to signal we have finished
 #touch /root/post-run.log.done
 
+# Unregister and register the VM
+subscription-manager clean
+subscription-manager register --activationkey=12-5-22-instruqt --org=12451665 --force
+
 # Enable cockpit functionality in showroom.
 dnf -y remove tlog cockpit-session-recording
 echo "[WebService]" > /etc/cockpit/cockpit.conf
